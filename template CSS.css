@@ -1,0 +1,159 @@
+body{
+    font-family: 'Kanit', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: yellowgreen;
+}
+p{
+    display: inline-block;
+    border: 5px solid black;
+    text-align: center;
+    position: absolute;
+    top: 196px;
+    left: 643px;
+    right: 265px;
+    background-color: #FFF8E1;
+    font-size: 35px;
+}
+
+/* Navigation bar Work started */
+.header{
+    background-color: #25284c;
+    padding: 1px;
+}
+/* Logo work started */
+.left{
+    display: inline-block;
+    position: relative;
+    top: 39px;
+    left: 11px;
+}
+.left img{
+    height: 45px;
+    width: auto;
+    cursor: pointer;
+}
+/* Logo work Ended */
+/* Navbar Midwork started*/
+.mid{
+    border: 3px solid rgb(120, 137, 85);
+    border-radius: 7px;
+    display: inline-block;
+    width: 40%;
+    margin: 5px 5px;
+    position: relative;
+    left: 25%;
+    background-color: rgb(60, 71, 135);
+    top: 22px;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 17px;
+}
+.navbar li a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 7px 28px;
+}
+.navbar li a:hover,.navbar li a:active{
+    color: rgb(193, 187, 187);
+    text-decoration: underline;
+}
+.navbar li a.active{
+    text-decoration: underline;
+    color: rgb(155, 154, 84);
+}
+/* Navbar midwork completed */
+/* Right Buttons Work */
+.right{
+    display: inline-block;
+    position: absolute;
+    top: 45px;
+    right: 23px;
+}
+
+.btn{
+    font-family: 'Kanit', sans-serif;
+    background-color: #747686c7;
+    margin: 3px;
+    color: whitesmoke;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #c41699c7;
+}
+/* Right buttons work completed */
+/* Form work starts Here */
+.form{
+    padding: 30px;
+    position: relative;
+    top: 10px;
+}
+
+.Name{
+    font-size: 25px;
+}
+.name_box{
+    width: 180px;
+    height: 20px;
+}
+.email{
+    font-size: 25px;
+}
+.mail_box{
+    width: 180px;
+    height: 20px;
+}
+
+.Pincode{
+    font-size: 25px;
+}
+.pincode_box{
+    width: 180px;
+    height: 20px;
+}
+
+.Gender{
+    font-size: 25px;
+}
+#Gender{
+    width: 90px;
+    height: 21px;
+}
+
+.Next{
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+    position: absolute;
+    bottom: 27px;
+    left: 210px;
+    cursor:pointer;
+}
+.Prev{
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+    position: absolute;
+    bottom: 27px;
+    left: 33px;
+    cursor:pointer;
+}
+.Prev:hover, .Next:hover{
+    background-color: aquamarine;
+}
+/* Form work Completed */
+
+
+
+
+
+
+
+
+
+
+
+
+
